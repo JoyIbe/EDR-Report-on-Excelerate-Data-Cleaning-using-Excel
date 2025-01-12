@@ -31,51 +31,51 @@ In this segment, each of the columns included in the Opportunity Sign Up Data is
 
 ### Column Analysis (User Data)
 
-##### Preferred Sponsors:
+#### Preferred Sponsors:
 
 Data Type: Text 
 
 Description: This column shows the variety of sponsors selected by learners at the time of registration in the Excelerate Platform. In this case, learners are free to choose their sponsors and this makes it possible for them to get the kind of opportunities they prefer. They are free to select one or several sponsors depending on their desire for a more targeted approach and more suitable offers.
 
 
-##### Gender:
+#### Gender:
 
 Data Type: Categorical 
 
 Description: This column shows the gender which was entered by the users at the time of registration in case they chose to provide that. It is not a mandatory field where a user is forced to provide their gender; rather, it is an optional field whereby the user has the freedom to input the gender they want or leave the field blank.
 
-##### Country:
+#### Country:
 
 Data Type: Text
 
 Description: On this column, it indicates the country the learner has stated that they live in at the time of registration.
 
-##### Degree:
+#### Degree:
 
 Data Type: Categorical
 
 Description: This column displays the field of study that was mentioned by the user at the registration stage. This is something that users do not need to provide in order to sign up for the site.
 
 
-##### Sign Up Date:
+#### Sign Up Date:
 
 Data Type: Date
 
 Description: This column indicates the date they signed up for an Excelerate account with the company.
 
-##### City:
+#### City:
 
 Data Type: Text
 
 Description: This column shows the city that has been offered by the learner during the sign-up process for an experiment. It is an option, not an obligation that can be enforced or punished.
 
-##### Zip:
+#### Zip:
 
 Data Type: Text
 
 Description:This column indicates the zip code of the city that the learner has provided upon registration as the area they reside in. This is not one of the entries that the users have to complete when they are creating their accounts.
 
-##### isFromSocialMedia: 
+#### isFromSocialMedia: 
 
 Data Type: Boolean
 
@@ -83,26 +83,26 @@ Description: This column shows how the learners are registered, whether as indiv
 
 #### Cleaning Steps (User Data):
 
-1. Replaced "missing values", "blanks", "Don't Want to Specify", and "null"  with "Didn't Specify".
-2. Converted date column from text to date format.
-3. Ensured consistency across columns.
-4. Handled duplicate data points across categorical columns. 
+- Replaced "missing values", "blanks", "Don't Want to Specify", and "null"  with "Didn't Specify".
+-  Converted date column from text to date format.
+-   Ensured consistency across columns.
+- Handled duplicate data points across categorical columns. 
 
 ### Data Types and Potential Issues (Opportunity Sign Up Data) 
 
-##### - Profile ID (Alphanumeric):
+#### - Profile ID (Alphanumeric):
 
 Data Type: Alphanumeric Unique Identifier: Yes
 
 No missing values identified.
 
-##### - Opportunity ID (Alphanumeric):
+#### Opportunity ID (Alphanumeric):
 
 Data Type: Alphanumeric Unique Identifier: Yes
 
 No missing values identified.
 
-##### - Opportunity Name (Categorical):
+#### Opportunity Name (Categorical):
 
 Data Type: Categorical
 
@@ -110,7 +110,7 @@ No missing values identified.
 
 Unique Values: 33 opportunities with varying frequencies.
 
-##### - Opportunity Category (Categorical):
+#### Opportunity Category (Categorical):
 
 Data Type: Categorical
 
@@ -118,7 +118,7 @@ No missing values identified.
 
 Unique Values: Event, Course, Competition, Internship, Engagement.
 
-##### - Opportunity End Date (Datetime):
+#### Opportunity End Date (Datetime):
 
 Data Type: Datetime
 
@@ -126,7 +126,7 @@ No missing values identified.
 
 Dates appear to follow a standardized format.
 
-##### - Gender (Categorical):
+#### Gender (Categorical):
 
 Data Type: Categorical
 
@@ -137,19 +137,19 @@ Unique Values: Male, Female, Don't want to specify, Other.
 
 #### Cleaning Steps  (Opportunity Sign Up Data):
 
-1.  Numerical columns like “Reward Amount” and Skilled Points Earned” were moderately skewed positively and negatively respectively. Hence, replacing the missing values with the median.
+- Numerical columns like “Reward Amount” and Skilled Points Earned” were moderately skewed positively and negatively respectively. Hence, replacing the missing values with the median.
 
-2.  Using Text-to-Column dates were converted from text to date format.
+-  Using Text-to-Column dates were converted from text to date format.
 
-3. Replaced "missing values", "blanks", "Don't Want to Specify", and "null"  with "Didn't Specify".
+- Replaced "missing values", "blanks", "Don't Want to Specify", and "null"  with "Didn't Specify".
 
-4. Ensured consistency across columns.
+- Ensured consistency across columns.
 
-5. Handled duplicate data points across categorical columns. 
+- Handled duplicate data points across categorical columns. 
 
 #### Categorical Column Summaries
 
-##### Gender:
+#### Gender:
 
 Male: 60.23% (12,240)
 
@@ -157,13 +157,13 @@ Female: 39.39% (8,004)
 
 Other categories: Don't want to specify, Other.
 
-##### Current Student Status:
+#### Current Student Status:
 
 Graduate Program Student: 9,297 (45.75%)
 
 High School Student, Undergraduate Student, Not in Education.
 
-##### Opportunity Category:
+#### Opportunity Category:
 
 Internship: 75.58%
 
@@ -171,7 +171,7 @@ Course:  8.51%
 
 Event: 9.88% Other Categories.
 
-##### Opportunity Name:
+#### Opportunity Name:
 
 Data Visualization:27.98%
 
@@ -181,19 +181,19 @@ Digital Marketing: 12.20%
 
 Other include percentages below 10%
 
-##### Status Description:
+#### Status Description:
 
 Team Allocated: 69.90%
 
 Dropped Out, Rejected, Applied, and others.
 
-##### Applied Date Sign Ups:
+#### Applied Date Sign Ups:
 
 June, 2023: 23.73%
 
 The months of June, July and August are the top 3 months with the highest Applied Date Signups, ranging between 4823 and 3502. December, 2022 has the least Applied Date Sign Ups of 131.
 
-##### Badge Name:
+#### Badge Name:
 
 Unknown: 91.23%
 
@@ -205,11 +205,15 @@ The other categories take up the remaining percentage.
 
 #### Key Observations:
 Gender distribution is predominantly male.
+
 "Graduate Program Student" is the most common status, followed by other student categories. "Internship" is the most frequent opportunity category.
-The prevailing category for Badge Name is "Didn’t Specify," which indicates a large number of active learners still enrolled in the program. The distribution of Applied Date Sign Ups shows the counts are higher in some months than others, especially June, July and August. This analysis provides a comprehensive overview of Opportunity Sign Up Data with focus on specific features, possible weaknesses, and distribution of columns by categories. The obtained information creates a basis for the further stages of data analysis and visualization to make more accurate conclusions and further investigation.
+
+The prevailing category for Badge Name is "Didn’t Specify," which indicates a large number of active learners still enrolled in the program. The distribution of Applied Date Sign Ups shows the counts are higher in some months than others, especially June, July and August. 
+
+This analysis provides a comprehensive overview of Opportunity Sign Up Data with focus on specific features, possible weaknesses, and distribution of columns by categories. The obtained information creates a basis for the further stages of data analysis and visualization to make more accurate conclusions and further investigation.
 
 
-### Profile ID Analysis
+#### Profile ID Analysis
 
 In this section, we delve into the analysis of the "Profile ID" column, examining the uniqueness of Profile IDs, and identifying instances of duplicates or missing values.
 
@@ -231,46 +235,37 @@ No instances of missing Profile IDs were identified.
 #### Key Observations:
 This dataset presents a great number of different Profile IDs, which indicates the range of users’ activity. As a matter of fact, it is worthy to note that some of the Profile IDs appear more than once meaning that the users have been interacting with the platform in different instances. The detailed examination of the most significant ‘Profile ID’ reveals the range of diversity of users’ activity. The presence of duplicate IDs suggests that some individuals engaged in several events within the Excelerate context. It is also crucial in understanding users’ actions to plan further interaction on this website. In addition, the fact that there are no missing Profile IDs makes the data more reliable and comprehensive in this crucial identifier.
 
-### Opportunity Status Distribution
+#### Opportunity Status Distribution
 
 Here we concentrate on the "Status Description" column in the Opportunity Sign Up Data, providing a distribution summary of the different statuses and their occurrences.
 
-Status Description
-Count of Status Description
-Applied
-89
-Dropped Out
-24
-Not Started
-1,324
-Rejected
-726
-Rewards Award
-2,521
-Started
-810
-Team Allocated
-14,206
-Withdraw
-622
-
-
-
-
-
-
-
+Status Description | Count of Status Description
+|---|---|
+Applied | 89
+Dropped Out | 24
+Not Started | 1,324
+Rejected| 726
+Rewards Award | 2,521
+Started| 810
+Team Allocated | 14,206
+Withdraw | 622
 
 
 #### Key Observations:
 
-The prevalence of "Team Allocated" in the Status Description column signifies a considerable number of participants successfully assigned to teams. Similarly, the substantial count of "Rewards Award" indicates recognition for a noteworthy portion of participants. Noteworthy counts for "Not Started" and "Rejected" reflect participants at different stages of engagement. Analyzing this status distribution is pivotal for assessing the success and impact of opportunities on the Excelerate platform. The dominance of positive statuses like "Team Allocated" and "Rewards Award" suggests a significant level of achievement and acknowledgment. Evaluating the varied statuses provides valuable insights into the progression and outcomes for participants across diverse opportunities.
+The prevalence of "Team Allocated" in the Status Description column signifies a considerable number of participants successfully assigned to teams. 
+
+Similarly, the substantial count of "Rewards Award" indicates recognition for a noteworthy portion of participants. Noteworthy counts for "Not Started" and "Rejected" reflect participants at different stages of engagement. 
+
+Analyzing this status distribution is pivotal for assessing the success and impact of opportunities on the Excelerate platform.
+
+The dominance of positive statuses like "Team Allocated" and "Rewards Award" suggests a significant level of achievement and acknowledgment. Evaluating the varied statuses provides valuable insights into the progression and outcomes for participants across diverse opportunities.
 
 ### Basic Statistics
 
 The User Data dataset is not very suitable for statistical analysis, as there are no numeric columns, which prevents the provision of quantitative conclusions. The lack of numerical values limits the investigation of the relations and trends in the user data. However, the subsequent section covers the Opportunity Sign Up Data where fundamental statistics such as mean, median, min, and max are calculated for the relevant numeric fields to allow for statistical analysis.
 
-##### Reward Amount (Opportunity Sign Up Data):
+#### Reward Amount (Opportunity Sign Up Data):
 
 Mean: 1081.261
 
@@ -290,7 +285,7 @@ Count: 2521
 
 Skewness: 0.7
 
-##### Skill Points Earned (Opportunity Sign Up Data):
+#### Skill Points Earned (Opportunity Sign Up Data):
 
 Mean: 1186.965
 
@@ -311,7 +306,7 @@ Count: 2521
 #### Key Observations:
 The “Reward Amount” in the dataset has a wide spread with a right-skewed distribution and notable variability. While “Skilled Points Earned” is fairly symmetrically distributed with a slight left skew and moderate variability. Calculating basic statistics offers a quantitative grasp of the distribution and variability, providing valuable insights into the impact of opportunities on the Excelerate platform and revealing patterns in participant performance. It also provides a blueprint for handling its missing values, prioritizing well-considered and strategic decision-making.
 
-### Initial Observation
+## Initial Observation
 
 #### User Data
 
@@ -342,7 +337,7 @@ Social media marketing:
 
 During the exploratory analysis of the Opportunity Sign Up Data, several initial observations and patterns emerged:
 
-##### Status Distribution
+#### Status Distribution
 
 The largest portion of the participants is in the “Team Allocated” state, which shows high rates of successful teaming.
 
@@ -350,25 +345,25 @@ There were a significant number of participants who did not get rewarded as the 
 
 The percentage of participants that have not even begun or have been turned down is quite high.
 
-##### Profile IDs
+#### Profile IDs
 
 There are Profile IDs of various users, which may or may not have a high level of interaction with the Excelerate platform. There are Profile IDs that are repeated, which implies that there are some people who have signed up for more than one opportunity.
 
-##### Reward and Skill Points
+#### Reward and Skill Points
 
 The "Reward Amount" and "Skill Points Earned" columns exhibit wide ranges, with some participants receiving high rewards or earning a significant number of skill points. Negative values in the "Reward Amount" column suggest cases where participants were Withdrawn, Dropped Out, and Rejected.
 
-##### Badge Information
+#### Badge Information
 
 The "Badge ID" column includes repetitions, indicating instances where multiple participants earned the same type of badge.
 
 
-##### Missing Values
+#### Missing Values
 
 There were instances where certain columns in the dataset contained missing values, and depending on the type of information and the status of the participants’ description, different approaches were taken.
 
 
-### Areas of Interest for Deeper Investigation:
+## Areas of Interest for Deeper Investigation:
 
 #### Status Progression Analysis: 
 
@@ -399,4 +394,17 @@ Make sure to perform a detailed inspection of cases with missing data and their 
 These initial observations provide an outline for further examination in the next weeks, as the main goal is to collect more data regarding the participation rates, success levels, and the efficiency of opportunities within the Excelerate platform.
 
 
-### Visualizations
+## Visualizations
+
+![User_Gender](https://github.com/user-attachments/assets/07213009-48e1-4000-96be-ec84b06e25ab)
+
+![User_Degree](https://github.com/user-attachments/assets/307e6c3c-2832-4bd0-98d1-27605d2a8c28)
+
+![User_Yearly Signup](https://github.com/user-attachments/assets/0c3f1e34-8a92-428d-b14a-f958794377ee)
+
+![User_Social](https://github.com/user-attachments/assets/ba9969af-5fe8-44a7-baf2-d2dad2db5d67)
+
+
+
+
+
