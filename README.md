@@ -442,7 +442,7 @@ Data quality over time can become an issue due to several factors; which may inc
 
 The process of creating a comprehensive dashboard for Excelerate leadership requires a strategic approach to answering critical questions. The purpose is to create an interface with information on platform usage, geographical presence, interaction, opportunity preference, completion rates, demographics, skill enhancement, and scholarships awarded. In the following weeks, a careful investigation of feature analysis and data processing shall take place, from which deeper insights will be extracted and woven into subsequent reports.
 
-## CONCLUSION:
+## Conclusion
 
 In terms of the participants’ demographics and their sign up behaviors, the dataset offers crucial information.
 The nature of the sponsors and educational background of the participants can be used to guide the development of the marketing campaigns or the educational materials.
