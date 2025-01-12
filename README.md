@@ -396,6 +396,8 @@ These initial observations provide an outline for further examination in the nex
 
 ## Visualizations
 
+### User Data Viz:
+
 ![User_Gender](https://github.com/user-attachments/assets/07213009-48e1-4000-96be-ec84b06e25ab)
 
 ![User_Degree](https://github.com/user-attachments/assets/307e6c3c-2832-4bd0-98d1-27605d2a8c28)
@@ -403,6 +405,26 @@ These initial observations provide an outline for further examination in the nex
 ![User_Yearly Signup](https://github.com/user-attachments/assets/0c3f1e34-8a92-428d-b14a-f958794377ee)
 
 ![User_Social](https://github.com/user-attachments/assets/ba9969af-5fe8-44a7-baf2-d2dad2db5d67)
+
+![User_GenderDegree](https://github.com/user-attachments/assets/2cc1f29f-72fe-43aa-a7f2-2993dad91e0b)
+
+### Opportunity Sign Up Data Viz:
+
+![Opp_Gender](https://github.com/user-attachments/assets/7f58a9e2-186c-4f36-9817-32967bbc3775)
+
+![Opp_CurrentStat2](https://github.com/user-attachments/assets/dfc6a01b-1d30-4571-bb9d-a6653310cfc4)
+
+![Opp_Cat](https://github.com/user-attachments/assets/e1241bbf-c044-4ed1-a379-2debcf75c9bb)
+
+
+![Opp_AppliedDate](https://github.com/user-attachments/assets/037150c2-92d3-4bcb-822e-f85ebc297f53)
+
+![Opp_BadgeName](https://github.com/user-attachments/assets/8bbe672d-94e5-47d9-8b5d-1e48f5dc7b8d)
+
+
+![Opp_Reward](https://github.com/user-attachments/assets/6c8b7884-ce1e-4066-971f-0253634062d2)
+
+
 
 
 
