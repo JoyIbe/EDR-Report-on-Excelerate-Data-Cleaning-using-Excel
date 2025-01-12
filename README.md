@@ -424,6 +424,31 @@ These initial observations provide an outline for further examination in the nex
 
 ![Opp_Reward](https://github.com/user-attachments/assets/6c8b7884-ce1e-4066-971f-0253634062d2)
 
+## Challenges Faced
+
+### Data Validation:
+
+There are countries in the dataset represented by one or two individuals, which are considered outliers indicative of inaccurate data.
+
+### Incomplete and Unclear Dataset:
+
+A minimum of five out of eight columns contain null, blank, or missing values, impacting the precision of the data analysis.
+
+### Continuous Data Monitoring:
+
+Data quality over time can become an issue due to several factors; which may include the updated source of the data, the data collection method, and users’ behaviors. Hence, the use of plans for monitoring and managing data in the long-term is important in the pursuit of sustaining the validity and coherence of the dataset for future use.
+
+## Next Steps
+
+The process of creating a comprehensive dashboard for Excelerate leadership requires a strategic approach to answering critical questions. The purpose is to create an interface with information on platform usage, geographical presence, interaction, opportunity preference, completion rates, demographics, skill enhancement, and scholarships awarded. In the following weeks, a careful investigation of feature analysis and data processing shall take place, from which deeper insights will be extracted and woven into subsequent reports.
+
+## CONCLUSION:
+
+In terms of the participants’ demographics and their sign up behaviors, the dataset offers crucial information.
+The nature of the sponsors and educational background of the participants can be used to guide the development of the marketing campaigns or the educational materials.
+The inclusion of other numerical data like the sign up date or any other relevant data could offer deeper information on the trends and cycle patterns.
+
+
 
 
 
