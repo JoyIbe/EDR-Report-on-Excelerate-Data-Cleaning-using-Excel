@@ -398,6 +398,8 @@ These initial observations provide an outline for further examination in the nex
 
 ### User Data Viz:
 
+- Visualization for the Gender Column
+
 ![User_Gender](https://github.com/user-attachments/assets/07213009-48e1-4000-96be-ec84b06e25ab)
 
 ![User_Degree](https://github.com/user-attachments/assets/307e6c3c-2832-4bd0-98d1-27605d2a8c28)
