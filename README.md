@@ -1,5 +1,17 @@
 # EDR Report on Excelerate  Data Cleaning using Excel
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Data Examination](#data-examination)
+- [Column Analysis](#column-analysis)
+- [Initial Observation](#initial-observation)
+- [Areas of Interest for Deeper Investigation](#areas-of-interest-for-deeper-investigation)
+- [Visualizations](#visualizations)
+- [Challenges Faced](#challenges-faced)
+- [Next Steps](#next-steps)
+- [Conclusion](#conclusion)
+
 ## Introduction
 
 In the context of analytical decision making, the ability to derive insights from data depends on a rigorous analysis and appreciation of datasets. The main objective of this Exploratory Data Analysis (EDA) report is to shed light on certain features, reveal patterns, and respond to complexities.
