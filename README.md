@@ -1,4 +1,4 @@
-# EDR Report on Excelerate  Data Cleaning using Excel
+# EDA Report on Excelerate  Data Cleaning using Excel
 
 ## Table of Contents
 
